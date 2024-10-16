@@ -5,6 +5,8 @@ export class Employee {
     public city: string,
     public salary: number,
     public gender?: string,
-    public email?: string
+    public email?: string,
+    // Add id
+    public id?: string
   ) {}
 }
